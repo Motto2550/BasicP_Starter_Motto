@@ -5,10 +5,10 @@
 #     print("x > y")
 # elif x == y :
 #     print("x = y")
-# elif x < y :
+# else :
 #     print("x < y")
 # else :
-#     print("")
+#     print("I don't know")
 
 
 x = int(input("number x "))
@@ -22,9 +22,9 @@ elif x == y :
     print("x = y")
     XY2 = x/y
     print(XY2)
-elif x < y :
+else :
     print("x < y")
     XY3 = x+y
     print(XY3)
-else :
-    print("I don't know TT")
+# else :
+#    print("I don't know TT")
